@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <GridLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/GridLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:background="@color/smooth_pink">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/halls_cardView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="@dimen/margin_30"
+            app:cardBackgroundColor="@color/smooth_pink"
+            android:onClick="hallsCardViewOnClick">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_2dp"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_10dp">
+
+                <ImageView
+                    android:id="@+id/halls_img"
+                    android:layout_width="@dimen/dashboard_image_width"
+                    android:layout_height="@dimen/dashboard_image_height"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:src="@drawable/hall" />
+
+                <TextView
+                    android:id="@+id/halls_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/normal_text_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/farms_cardView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="@dimen/margin_30"
+            app:cardBackgroundColor="@color/smooth_pink">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_2dp"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_10dp">
+
+                <ImageView
+                    android:id="@+id/farm_img"
+                    android:layout_width="@dimen/dashboard_image_width"
+                    android:layout_height="@dimen/dashboard_image_height"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:src="@drawable/farms" />
+
+                <TextView
+                    android:id="@+id/frams_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/normal_text_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/planner_cardView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="@dimen/margin_30"
+            app:cardBackgroundColor="@color/smooth_pink">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_2dp"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_10dp">
+
+                <ImageView
+                    android:id="@+id/planner_img"
+                    android:layout_width="@dimen/dashboard_image_width"
+                    android:layout_height="@dimen/dashboard_image_height"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:src="@drawable/planner" />
+
+                <TextView
+                    android:id="@+id/planner_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/normal_text_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/puttey_cardView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="@dimen/margin_30"
+            app:cardBackgroundColor="@color/smooth_pink">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_2dp"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_10dp">
+
+                <ImageView
+                    android:id="@+id/puttey_img"
+                    android:layout_width="@dimen/dashboard_image_width"
+                    android:layout_height="@dimen/dashboard_image_height"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:src="@drawable/puttey" />
+
+                <TextView
+                    android:id="@+id/puttey_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/normal_text_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/sweet_cardView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="@dimen/margin_30"
+            app:cardBackgroundColor="@color/smooth_pink">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_2dp"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_10dp">
+
+                <ImageView
+                    android:id="@+id/sweet_img"
+                    android:layout_width="@dimen/dashboard_image_width"
+                    android:layout_height="@dimen/dashboard_image_height"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:src="@drawable/sweets" />
+
+                <TextView
+                    android:id="@+id/sweet_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/normal_text_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/photography_cardView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="@dimen/margin_30"
+            app:cardBackgroundColor="@color/smooth_pink">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_2dp"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_10dp">
+
+                <ImageView
+                    android:id="@+id/photography_img"
+                    android:layout_width="@dimen/dashboard_image_width"
+                    android:layout_height="@dimen/dashboard_image_height"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:src="@drawable/phtography" />
+
+                <TextView
+                    android:id="@+id/photography_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/normal_text_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+</layout>
+

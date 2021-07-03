@@ -1,0 +1,129 @@
+[
+  {
+    "name": "Alsafeer",
+    "location": "1",
+    "phone": "0797048997",
+    "capacity": 200,
+    "price": 2500,
+    "childrenAllowed": true,
+    "img": "ic_hall1"
+  },
+  {
+    "name": "Alsharq",
+    "location": "0",
+    "phone": "0797048997",
+    "capacity": 200,
+    "price": 1000,
+    "childrenAllowed": true,
+    "img": "ic_hall2"
+  },
+  {
+    "name": "Alnakeel",
+    "location": "1",
+    "phone": "0797048997",
+    "capacity": 200,
+    "price": 1650,
+    "childrenAllowed": true,
+    "img": "ic_hall3"
+  },
+  {
+    "name": "Baradaa",
+    "location": "Aqaba",
+    "phone": "0797048997",
+    "capacity": 200,
+    "price": 1200,
+    "childrenAllowed": false,
+    "img": "ic_hall4"
+  },
+  {
+    "name": "Queen",
+    "location": "Ajloun",
+    "phone": "0797048997",
+    "capacity": 200,
+    "price": 2000,
+    "childrenAllowed": true,
+    "img": "ic_hall5"
+  },
+  {
+    "name": "Alfares",
+    "location": "0",
+    "phone": "0797048997",
+    "capacity": 200,
+    "price": 2340,
+    "childrenAllowed": false,
+    "img": "ic_hall6"
+  },
+  {
+    "name": "Alshatt",
+    "location": "1",
+    "phone": "0797048997",
+    "capacity": 200,
+    "price": 1650,
+    "childrenAllowed": true,
+    "img": "ic_hall7"
+  },
+  {
+    "name": "Alyasmeen",
+    "location": "1",
+    "phone": "0797048997",
+    "capacity": 200,
+    "price": 1650,
+    "childrenAllowed": true,
+    "img": "ic_hall8"
+  },
+
+  {
+    "name": "Alqayser",
+    "location": "1",
+    "phone": "0797048997",
+    "capacity": 200,
+    "price": 1650,
+    "childrenAllowed": true,
+    "img": "ic_hall9"
+  },
+  {
+    "name": "Almataha",
+    "location": "1",
+    "phone": "0797048997",
+    "capacity": 200,
+    "price": 1650,
+    "childrenAllowed": true,
+    "img": "ic_hall10"
+  },
+  {
+    "name": "Manolisa",
+    "location": "1",
+    "phone": "0797048997",
+    "capacity": 200,
+    "price": 1650,
+    "childrenAllowed": true,
+    "img": "ic_hall12"
+  },
+  {
+  "name": "Princessa",
+  "location": "1",
+  "phone": "0797048997",
+  "capacity": 400,
+  "price": 1650,
+  "childrenAllowed": true,
+  "img": "ic_hall13"
+},
+  {
+    "name": "Happy Wedding",
+    "location": "1",
+    "phone": "0797048997",
+    "capacity": 200,
+    "price": 1100,
+    "childrenAllowed": false,
+    "img": "ic_hall14"
+  },
+  {
+    "name": "Royal Hall",
+    "location": "1",
+    "phone": "0797048997",
+    "capacity": 200,
+    "price": 1300,
+    "childrenAllowed": false,
+    "img": "ic_hall15"
+  }
+]

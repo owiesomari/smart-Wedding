@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Smart Wedding</string>
+    <string name="welcome_to_smart_wedding_app">Welcome to smart wedding app</string>
+    <string name="city">City</string>
+    <string name="price">Price</string>
+    <string name="capacity">Capacity</string>
+    <string name="childern_allowed">Children Allowed</string>
+    <string name="_0_00jod">0.00JOD</string>
+    <string name="cancel">Cancel</string>
+    <string name="book">Book</string>
+    <string name="are_you_sure_you_want_to_cancel">Are you sure you want to cancel?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="alert">Alert</string>
+    <string name="are_you_sure_you_want_to_book">Are you sure you want to book?</string>
+
+    <string-array name="dashboard_items">
+        <item>wedding halls</item>
+        <item>Farms</item>
+        <item>wedding planner</item>
+        <item>beauty center</item>
+        <item>dessert</item>
+        <item>Photographer</item>
+    </string-array>
+
+    <string-array name="jordan_cites">
+        <item>Amman</item>
+        <item>Irbid</item>
+        <item>Jerash</item>
+        <item>Aqaba</item>
+        <item>Ajloun</item>
+    </string-array>
+</resources>
