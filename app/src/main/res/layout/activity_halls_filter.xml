@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    >
+    xmlns:tools="http://schemas.android.com/tools">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -10,7 +9,6 @@
         android:padding="@dimen/padding_20dp">
 
         <TextView
-            android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Filter"
@@ -34,7 +32,7 @@
             tools:layout_editor_absoluteX="0dp">
 
             <TextView
-                android:id="@+id/cityTextView"
+                android:id="@+id/city"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/city" />
@@ -59,22 +57,21 @@
             app:layout_constraintVertical_bias="0.102">
 
             <TextView
-                android:id="@+id/priceTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/price" />
 
             <SeekBar
-                android:id="@+id/priceseekBar"
+                android:id="@+id/priceSeekBar"
                 android:layout_width="259dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="@dimen/margin_10dp"
                 android:layout_marginRight="@dimen/margin_10dp"
-                android:min="0"
-                android:max="20000"/>
+                android:max="20000"
+                android:min="0" />
 
             <TextView
-                android:id="@+id/seekBarValue"
+                android:id="@+id/price"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/_0_00jod"
@@ -94,13 +91,12 @@
             app:layout_constraintVertical_bias="0.112">
 
             <TextView
-                android:id="@+id/CapacityTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/capacity" />
 
             <EditText
-                android:id="@+id/capacityTextNumber"
+                android:id="@+id/capacity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -120,17 +116,18 @@
             app:layout_constraintVertical_bias="0.108">
 
             <Switch
-                android:id="@+id/childrenAllowedSwitch"
+                android:id="@+id/childrenAllowed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/childern_allowed" />
+                android:text="@string/childern_allowed"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
         </LinearLayout>
 
         <Button
             android:layout_width="170dp"
             android:layout_height="48dp"
             android:onClick="applyButtonOnClick"
-            android:text="Apply"
+            android:text="@string/apply"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

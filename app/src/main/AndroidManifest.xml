@@ -17,10 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".DashboardActivity"/>
-        <activity android:name=".HallsActivity"/>
-        <activity android:name=".HallsViewActivity"/>
+        <activity android:name=".HallsFilterActivity"/>
+        <activity android:name=".HallsListActivity"/>
         <activity android:name=".CartActivity"/>
-        <activity android:name=".HallActivity"/>
+        <activity android:name=".HallDescriptionActivity"/>
     </application>
 
 </manifest>

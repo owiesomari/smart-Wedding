@@ -6,16 +6,16 @@
         android:id="@+id/GridLayout1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:columnCount="2"
-        android:background="@color/smooth_pink">
+        android:background="@color/smooth_pink"
+        android:columnCount="2">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/halls_cardView"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="@dimen/dashboard_cardview_dimen"
+            android:layout_height="@dimen/dashboard_cardview_dimen"
             android:layout_margin="@dimen/margin_30"
-            app:cardBackgroundColor="@color/smooth_pink"
-            android:onClick="hallsCardViewOnClick">
+            android:onClick="hallsCardViewOnClick"
+            app:cardBackgroundColor="@color/smooth_pink">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -32,20 +32,20 @@
                     android:src="@drawable/hall" />
 
                 <TextView
-                    android:id="@+id/halls_textView"
+                    android:id="@+id/hallsText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
                     android:textSize="@dimen/normal_text_size"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
+                    android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/farms_cardView"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="@dimen/dashboard_cardview_dimen"
+            android:layout_height="@dimen/dashboard_cardview_dimen"
             android:layout_margin="@dimen/margin_30"
             app:cardBackgroundColor="@color/smooth_pink">
 
@@ -64,20 +64,20 @@
                     android:src="@drawable/farms" />
 
                 <TextView
-                    android:id="@+id/frams_textView"
+                    android:id="@+id/farmsText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
                     android:textSize="@dimen/normal_text_size"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
+                    android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/planner_cardView"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="@dimen/dashboard_cardview_dimen"
+            android:layout_height="@dimen/dashboard_cardview_dimen"
             android:layout_margin="@dimen/margin_30"
             app:cardBackgroundColor="@color/smooth_pink">
 
@@ -96,20 +96,20 @@
                     android:src="@drawable/planner" />
 
                 <TextView
-                    android:id="@+id/planner_textView"
+                    android:id="@+id/plannerText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
                     android:textSize="@dimen/normal_text_size"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
+                    android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/puttey_cardView"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="@dimen/dashboard_cardview_dimen"
+            android:layout_height="@dimen/dashboard_cardview_dimen"
             android:layout_margin="@dimen/margin_30"
             app:cardBackgroundColor="@color/smooth_pink">
 
@@ -128,20 +128,20 @@
                     android:src="@drawable/puttey" />
 
                 <TextView
-                    android:id="@+id/puttey_textView"
+                    android:id="@+id/putteyText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
                     android:textSize="@dimen/normal_text_size"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
+                    android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/sweet_cardView"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="@dimen/dashboard_cardview_dimen"
+            android:layout_height="@dimen/dashboard_cardview_dimen"
             android:layout_margin="@dimen/margin_30"
             app:cardBackgroundColor="@color/smooth_pink">
 
@@ -160,20 +160,20 @@
                     android:src="@drawable/sweets" />
 
                 <TextView
-                    android:id="@+id/sweet_textView"
+                    android:id="@+id/sweetText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
                     android:textSize="@dimen/normal_text_size"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
+                    android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/photography_cardView"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="@dimen/dashboard_cardview_dimen"
+            android:layout_height="@dimen/dashboard_cardview_dimen"
             android:layout_margin="@dimen/margin_30"
             app:cardBackgroundColor="@color/smooth_pink">
 
@@ -192,13 +192,13 @@
                     android:src="@drawable/phtography" />
 
                 <TextView
-                    android:id="@+id/photography_textView"
+                    android:id="@+id/photographyText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
                     android:textSize="@dimen/normal_text_size"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
+                    android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 

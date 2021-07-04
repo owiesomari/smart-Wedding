@@ -13,6 +13,7 @@
     <string name="no">No</string>
     <string name="alert">Alert</string>
     <string name="are_you_sure_you_want_to_book">Are you sure you want to book?</string>
+    <string name="apply">Apply</string>
 
     <string-array name="dashboard_items">
         <item>wedding halls</item>

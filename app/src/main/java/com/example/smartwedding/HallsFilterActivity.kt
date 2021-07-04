@@ -2,31 +2,27 @@ package com.example.smartwedding
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import com.example.smartwedding.databinding.ActivityHallsBinding
-import kotlin.math.log
+import com.example.smartwedding.databinding.ActivityHallsFilterBinding
+import com.example.smartwedding.util.*
 
-class HallsActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityHallsBinding
+class HallsFilterActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityHallsFilterBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_halls)
-
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_halls_filter)
         bindCitiesSpinner()
-        binding.priceseekBar.setOnSeekBarChangeListener(object :
+        binding.priceSeekBar.setOnSeekBarChangeListener(object :
             SeekBar.OnSeekBarChangeListener {
-            override fun onProgressChanged(
-                seek: SeekBar,
-                progress: Int, fromUser: Boolean
-            ) {
-                binding.seekBarValue.text = seek.progress.toString() + ".00JOD"
+            override fun onProgressChanged( seek: SeekBar, progress: Int, fromUser: Boolean) {
+                binding.price.text = seek.progress.toString() + ".00JOD"
             }
 
             override fun onStartTrackingTouch(seekBar: SeekBar?) {}
@@ -47,22 +43,18 @@ class HallsActivity : AppCompatActivity() {
 
     private fun bindCitiesSpinner() {
         val jordanCites = resources.getStringArray(R.array.jordan_cites)
-        if (binding.citiesSpinner != null) {
-            val adapter = ArrayAdapter(
-                this,
-                android.R.layout.simple_spinner_item, jordanCites
-            )
-            binding.citiesSpinner.adapter = adapter
-        }
+        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, jordanCites)
+        binding.citiesSpinner.adapter = adapter
     }
 
     fun applyButtonOnClick(view: View) {
-        val intent = Intent(this, HallsViewActivity::class.java)
-        intent.putExtra("city", binding.citiesSpinner.selectedItemId)
-        intent.putExtra("price", binding.priceseekBar.progress)
-        intent.putExtra("capacity", binding.capacityTextNumber.text)
-        intent.putExtra("childrenAllowed", binding.childrenAllowedSwitch.isChecked)
+        val intent = Intent(this, HallsListActivity::class.java)
+        intent.putExtra(HALL_CITY, binding.citiesSpinner.selectedItemId)
+        intent.putExtra(HALL_PRICE, binding.priceSeekBar.progress)
+        intent.putExtra(HALL_CAPACITY, binding.capacity.text)
+        intent.putExtra(CHILDREN_ALLOWED, binding.childrenAllowed.isChecked)
         startActivity(intent)
     }
+
 }
 
