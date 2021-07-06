@@ -55,4 +55,9 @@ class DashboardActivity : AppCompatActivity() {
         startActivity(Intent(this, HallsFilterActivity::class.java))
     }
 
+    fun farmCardViewOnClick(view: View) {
+        startActivity(Intent(this, FarmsListActivity::class.java))
+
+    }
+
 }

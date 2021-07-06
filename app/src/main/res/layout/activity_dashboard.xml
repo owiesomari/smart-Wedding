@@ -47,7 +47,8 @@
             android:layout_width="@dimen/dashboard_cardview_dimen"
             android:layout_height="@dimen/dashboard_cardview_dimen"
             android:layout_margin="@dimen/margin_30"
-            app:cardBackgroundColor="@color/smooth_pink">
+            app:cardBackgroundColor="@color/smooth_pink"
+            android:onClick="farmCardViewOnClick">
 
             <LinearLayout
                 android:layout_width="match_parent"

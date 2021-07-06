@@ -1,129 +1,130 @@
-[
-  {
-    "hallName": "Alsafeer",
-    "hallCity": "1",
-    "hallPhone": "0797048997",
-    "hallCapacity": 200,
-    "hallPrice": 2500,
-    "childrenAllowed": true,
-    "hallImageID": "ic_hall1"
-  },
-  {
-    "hallName": "Alsharq",
-    "hallCity": "0",
-    "hallPhone": "0797048997",
-    "hallCapacity": 200,
-    "hallPrice": 1000,
-    "childrenAllowed": true,
-    "hallImageID": "ic_hall2"
-  },
-  {
-    "hallName": "Alnakeel",
-    "hallCity": "1",
-    "hallPhone": "0797048997",
-    "hallCapacity": 200,
-    "hallPrice": 1650,
-    "childrenAllowed": true,
-    "hallImageID": "ic_hall3"
-  },
-  {
-    "hallName": "Baradaa",
-    "hallCity": "Aqaba",
-    "hallPhone": "0797048997",
-    "hallCapacity": 200,
-    "hallPrice": 1200,
-    "childrenAllowed": false,
-    "hallImageID": "ic_hall4"
-  },
-  {
-    "hallName": "Queen",
-    "hallCity": "Ajloun",
-    "hallPhone": "0797048997",
-    "hallCapacity": 200,
-    "hallPrice": 2000,
-    "childrenAllowed": true,
-    "hallImageID": "ic_hall5"
-  },
-  {
-    "hallName": "Alfares",
-    "hallCity": "0",
-    "hallPhone": "0797048997",
-    "hallCapacity": 200,
-    "hallPrice": 2340,
-    "childrenAllowed": false,
-    "hallImageID": "ic_hall6"
-  },
-  {
-    "hallName": "Alshatt",
-    "hallCity": "1",
-    "hallPhone": "0797048997",
-    "hallCapacity": 200,
-    "hallPrice": 1650,
-    "childrenAllowed": true,
-    "hallImageID": "ic_hall7"
-  },
-  {
-    "hallName": "Alyasmeen",
-    "hallCity": "1",
-    "hallPhone": "0797048997",
-    "hallCapacity": 200,
-    "hallPrice": 1650,
-    "childrenAllowed": true,
-    "hallImageID": "ic_hall8"
-  },
-
-  {
-    "hallName": "Alqayser",
-    "hallCity": "1",
-    "hallPhone": "0797048997",
-    "hallCapacity": 200,
-    "hallPrice": 1650,
-    "childrenAllowed": true,
-    "hallImageID": "ic_hall9"
-  },
-  {
-    "hallName": "Almataha",
-    "hallCity": "1",
-    "hallPhone": "0797048997",
-    "hallCapacity": 200,
-    "hallPrice": 1650,
-    "childrenAllowed": true,
-    "hallImageID": "ic_hall10"
-  },
-  {
-    "hallName": "Manolisa",
-    "hallCity": "1",
-    "hallPhone": "0797048997",
-    "hallCapacity": 200,
-    "hallPrice": 1650,
-    "childrenAllowed": true,
-    "hallImageID": "ic_hall12"
-  },
-  {
-  "hallName": "Princessa",
-  "hallCity": "1",
-  "hallPhone": "0797048997",
-  "hallCapacity": 400,
-  "hallPrice": 1650,
-  "childrenAllowed": true,
-  "hallImageID": "ic_hall13"
-},
-  {
-    "hallName": "Happy Wedding",
-    "hallCity": "1",
-    "hallPhone": "0797048997",
-    "hallCapacity": 200,
-    "hallPrice": 1100,
-    "childrenAllowed": false,
-    "hallImageID": "ic_hall14"
-  },
-  {
-    "hallName": "Royal Hall",
-    "hallCity": "1",
-    "hallPhone": "0797048997",
-    "hallCapacity": 200,
-    "hallPrice": 1300,
-    "childrenAllowed": false,
-    "hallImageID": "ic_hall15"
-  }
-]
+{
+  "farms": [
+    {
+      "farmName": "Alsafeer",
+      "farmCity": "1",
+      "farmPhone": "0797048997",
+      "farmCapacity": 200,
+      "farmPrice": 2500,
+      "farmAllowed": true,
+      "farmImageID": "ic_hall1"
+    },
+    {
+      "farmName": "Alsharq",
+      "farmCity": "0",
+      "farmPhone": "0797048997",
+      "farmCapacity": 200,
+      "farmPrice": 1000,
+      "farmAllowed": true,
+      "farmImageID": "ic_hall2"
+    },
+    {
+      "farmName": "Alnakeel",
+      "farmCity": "1",
+      "farmPhone": "0797048997",
+      "farmCapacity": 200,
+      "farmPrice": 1650,
+      "farmAllowed": true,
+      "farmImageID": "ic_hall3"
+    },
+    {
+      "farmName": "Baradaa",
+      "farmCity": "Aqaba",
+      "farmPhone": "0797048997",
+      "farmCapacity": 200,
+      "farmPrice": 1200,
+      "farmAllowed": false,
+      "farmImageID": "ic_hall4"
+    },
+    {
+      "farmName": "Queen",
+      "farmCity": "Ajloun",
+      "farmPhone": "0797048997",
+      "farmCapacity": 200,
+      "farmPrice": 2000,
+      "farmAllowed": true,
+      "farmImageID": "ic_hall5"
+    },
+    {
+      "farmName": "Alfares",
+      "farmCity": "0",
+      "farmPhone": "0797048997",
+      "farmCapacity": 200,
+      "farmPrice": 2340,
+      "farmAllowed": false,
+      "farmImageID": "ic_hall6"
+    },
+    {
+      "farmName": "Alshatt",
+      "farmCity": "1",
+      "farmPhone": "0797048997",
+      "farmCapacity": 200,
+      "farmPrice": 1650,
+      "farmAllowed": true,
+      "farmImageID": "ic_hall7"
+    },
+    {
+      "farmName": "Alyasmeen",
+      "farmCity": "1",
+      "farmPhone": "0797048997",
+      "farmCapacity": 200,
+      "farmPrice": 1650,
+      "farmAllowed": true,
+      "farmImageID": "ic_hall8"
+    },
+    {
+      "farmName": "Alqayser",
+      "farmCity": "1",
+      "farmPhone": "0797048997",
+      "farmCapacity": 200,
+      "farmPrice": 1650,
+      "farmAllowed": true,
+      "farmImageID": "ic_hall9"
+    },
+    {
+      "farmName": "Almataha",
+      "farmCity": "1",
+      "farmPhone": "0797048997",
+      "farmCapacity": 200,
+      "farmPrice": 1650,
+      "farmAllowed": true,
+      "farmImageID": "ic_hall10"
+    },
+    {
+      "farmName": "Manolisa",
+      "farmCity": "1",
+      "farmPhone": "0797048997",
+      "farmCapacity": 200,
+      "farmPrice": 1650,
+      "farmAllowed": true,
+      "farmImageID": "ic_hall12"
+    },
+    {
+      "farmName": "Princessa",
+      "farmCity": "1",
+      "farmPhone": "0797048997",
+      "farmCapacity": 400,
+      "farmPrice": 1650,
+      "farmAllowed": true,
+      "farmImageID": "ic_hall13"
+    },
+    {
+      "farmName": "Happy Wedding",
+      "farmCity": "1",
+      "farmPhone": "0797048997",
+      "farmCapacity": 200,
+      "farmPrice": 1100,
+      "farmAllowed": false,
+      "farmImageID": "ic_hall14"
+    },
+    {
+      "farmName": "Royal Hall",
+      "farmCity": "1",
+      "farmPhone": "0797048997",
+      "farmCapacity": 200,
+      "farmPrice": 1300,
+      "farmAllowed": false,
+      "farmImageID": "ic_hall15"
+    }
+  ]
+}
