@@ -60,4 +60,8 @@ class DashboardActivity : AppCompatActivity() {
 
     }
 
+    fun weddingOnclick(view: View) {
+        startActivity(Intent(this,WeddingPlannerListActivity::class.java))
+    }
+
 }

@@ -14,6 +14,11 @@
     <string name="alert">Alert</string>
     <string name="are_you_sure_you_want_to_book">Are you sure you want to book?</string>
     <string name="apply">Apply</string>
+    <string name="Wedding_Planner_one">Wedding Planner 1</string>
+    <string name="Wedding_Planner_two">Wedding Planner 2</string>
+    <string name="Wedding_Planner_three">Wedding Planner 3</string>
+    <string name="Wedding_Planner_four">Wedding Planner 4</string>
+    <string name="Wedding_Planner_five">Wedding Planner 5</string>
 
     <string-array name="dashboard_items">
         <item>wedding halls</item>
